@@ -68,6 +68,7 @@
     { "title": "COBOL", "amountOfVideos": 374 },
     { "title": "F#", "amountOfVideos": 392 },
     { "title": "Ocaml", "amountOfVideos": 415 },
-    { "title": "Julia", "amountOfVideos": 436 }
+    { "title": "Julia", "amountOfVideos": 436 },
+    { "title": "Redis", "amountOfVideos": 113 }
   ]
 }

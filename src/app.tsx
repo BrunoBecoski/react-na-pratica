@@ -1,7 +1,7 @@
+import { useState } from "react"; 
 import { keepPreviousData ,useQuery } from "@tanstack/react-query";
 import { useSearchParams } from "react-router-dom";
-import { FileDown, MoreHorizontal, Plus, Search } from "lucide-react";
-
+import { FileDown, Filter, MoreHorizontal, Plus, Search } from "lucide-react";
 
 import { Header } from "./components/header";
 import { Tabs } from "./components/tabs";
@@ -28,24 +28,38 @@ export interface Tag {
 
 
 export function App() {
-  const [searchParams] = useSearchParams()
+  const [searchParams, setSearchParams] = useSearchParams()
+  const urlFilter = searchParams.get('filter') ?? ''
+  
+  const [filter, setFilter] = useState(urlFilter)
 
   const page = searchParams.get('page') ? Number(searchParams.get('page')) : 1
 
   const { data: tagsResponse, isLoading } = useQuery<TagResponse>({
-    queryKey: ['get-tags', page],
+    queryKey: ['get-tags', urlFilter, page],
     queryFn: async () => {
-      const response = await fetch(`http://localhost:3333/tags?_page=${page}&_per_page=10`)
+      const response = await fetch(
+        `http://localhost:3333/tags?_page=${page}&_per_page=10&title=${urlFilter}`
+      )
       const data = await response.json()
 
       // delay 2s
-      await new Promise(resolver => setTimeout(resolver, 2000))
+      // await new Promise(resolver => setTimeout(resolver, 2000))
 
       return data
     },
     placeholderData: keepPreviousData,
     staleTime: 1000 * 60, // 60s 
   })
+
+  function handleFilter() {
+    setSearchParams(params => {
+      params.set('page', '1')
+      params.set('filter', filter)
+
+      return params
+    })
+  }
 
   if (isLoading) {
     return null
@@ -68,10 +82,20 @@ export function App() {
         </div>
 
         <div className="flex items-center justify-between">
-          <Input variant="filter">
-            <Search className="size-3" />
-            <Control placeholder="Search tags" />
-          </Input>
+          <div className="flex items-center">
+            <Input variant="filter">
+              <Search className="size-3" />
+              <Control placeholder="Search tags" 
+                onChange={e => setFilter(e.target.value)}
+                value={filter}
+              />
+            </Input>
+
+            <Button className="ml-3" onClick={handleFilter}>
+              <Filter className="size-3" />
+              Filter
+            </Button>
+          </div>
 
           <Button>
             Export
