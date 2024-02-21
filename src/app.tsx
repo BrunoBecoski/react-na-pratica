@@ -1,5 +1,22 @@
+import { Plus } from "lucide-react";
+
+import { Header } from "./components/header";
+
 export function App() {
   return (
-    <h1>Hello World</h1>
+    <div className="py-10 space-y-8">
+      <main className="max-w-6xl mx-auto space-y-5">
+        <Header />
+
+        <div className="flex items-center gap-3">
+          <h1 className="text-xl font-bold">Tags</h1>
+
+          <button className="inline-flex items-center gap-1.5 text-xs bg-teal-300 text-teal-950 font-medium rounded-full px-1.5 py-1 hover:bg-teal-200">
+            <Plus className="size-3" />
+            Create new
+          </button>
+        </div>
+      </main>
+    </div>
   );
 }
