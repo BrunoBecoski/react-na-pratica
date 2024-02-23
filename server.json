@@ -1,74 +1,454 @@
 {
   "tags": [
-    { "title": "React", "amountOfVideos": 142 },
-    { "title": "JavaScript", "amountOfVideos": 205 },
-    { "title": "HTML", "amountOfVideos": 97 },
-    { "title": "CSS", "amountOfVideos": 123 },
-    { "title": "Node.js", "amountOfVideos": 175 },
-    { "title": "Python", "amountOfVideos": 198 },
-    { "title": "Java", "amountOfVideos": 162 },
-    { "title": "C#", "amountOfVideos": 184 },
-    { "title": "Vue.js", "amountOfVideos": 136 },
-    { "title": "Angular", "amountOfVideos": 155 },
-    { "title": "TypeScript", "amountOfVideos": 109 },
-    { "title": "SQL", "amountOfVideos": 187 },
-    { "title": "MongoDB", "amountOfVideos": 129 },
-    { "title": "Express.js", "amountOfVideos": 141 },
-    { "title": "Django", "amountOfVideos": 115 },
-    { "title": "Flask", "amountOfVideos": 123 },
-    { "title": "Ruby", "amountOfVideos": 153 },
-    { "title": "PHP", "amountOfVideos": 176 },
-    { "title": "Swift", "amountOfVideos": 145 },
-    { "title": "Kotlin", "amountOfVideos": 120 },
-    { "title": "Go", "amountOfVideos": 131 },
-    { "title": "Rust", "amountOfVideos": 108 },
-    { "title": "C++", "amountOfVideos": 167 },
-    { "title": "C", "amountOfVideos": 143 },
-    { "title": "Objective-C", "amountOfVideos": 125 },
-    { "title": "Assembly", "amountOfVideos": 103 },
-    { "title": "Scala", "amountOfVideos": 94 },
-    { "title": "Perl", "amountOfVideos": 82 },
-    { "title": "Lua", "amountOfVideos": 77 },
-    { "title": "R", "amountOfVideos": 68 },
-    { "title": "Matlab", "amountOfVideos": 59 },
-    { "title": "SwiftUI", "amountOfVideos": 51 },
-    { "title": "React Native", "amountOfVideos": 45 },
-    { "title": "Ionic", "amountOfVideos": 37 },
-    { "title": "Flutter", "amountOfVideos": 30 },
-    { "title": "Xamarin", "amountOfVideos": 26 },
-    { "title": "Apache Cordova", "amountOfVideos": 22 },
-    { "title": "Electron", "amountOfVideos": 18 },
-    { "title": "Bootstrap", "amountOfVideos": 15 },
-    { "title": "Tailwind CSS", "amountOfVideos": 12 },
-    { "title": "Sass", "amountOfVideos": 10 },
-    { "title": "Less", "amountOfVideos": 8 },
-    { "title": "Stylus", "amountOfVideos": 6 },
-    { "title": "Material UI", "amountOfVideos": 4 },
-    { "title": "Ant Design", "amountOfVideos": 3 },
-    { "title": "Foundation", "amountOfVideos": 2 },
-    { "title": "Semantic UI", "amountOfVideos": 1 },
-    { "title": "Bulma", "amountOfVideos": 13 },
-    { "title": "Elixir", "amountOfVideos": 178 },
-    { "title": "Haskell", "amountOfVideos": 188 },
-    { "title": "Groovy", "amountOfVideos": 199 },
-    { "title": "Clojure", "amountOfVideos": 207 },
-    { "title": "Dart", "amountOfVideos": 215 },
-    { "title": "Shell Script", "amountOfVideos": 226 },
-    { "title": "PowerShell", "amountOfVideos": 235 },
-    { "title": "Cobol", "amountOfVideos": 244 },
-    { "title": "Ada", "amountOfVideos": 250 },
-    { "title": "Fortran", "amountOfVideos": 265 },
-    { "title": "Prolog", "amountOfVideos": 275 },
-    { "title": "Lisp", "amountOfVideos": 288 },
-    { "title": "Scheme", "amountOfVideos": 297 },
-    { "title": "Logo", "amountOfVideos": 308 },
-    { "title": "Smalltalk", "amountOfVideos": 320 },
-    { "title": "Erlang", "amountOfVideos": 337 },
-    { "title": "Pascal", "amountOfVideos": 355 },
-    { "title": "COBOL", "amountOfVideos": 374 },
-    { "title": "F#", "amountOfVideos": 392 },
-    { "title": "Ocaml", "amountOfVideos": 415 },
-    { "title": "Julia", "amountOfVideos": 436 },
-    { "title": "Redis", "amountOfVideos": 113 }
+    {
+      "title": "React",
+      "slug": "react",
+      "amountOfVideos": 142,
+      "id": "9f5c"
+    },
+    {
+      "title": "JavaScript",
+      "slug": "javascript",
+      "amountOfVideos": 205,
+      "id": "b490"
+    },
+    {
+      "title": "HTML",
+      "slug": "html",
+      "amountOfVideos": 97,
+      "id": "0e7e"
+    },
+    {
+      "title": "CSS",
+      "slug": "css",
+      "amountOfVideos": 123,
+      "id": "4bda"
+    },
+    {
+      "title": "Node.js",
+      "slug": "nodejs",
+      "amountOfVideos": 175,
+      "id": "9824"
+    },
+    {
+      "title": "Python",
+      "slug": "python",
+      "amountOfVideos": 198,
+      "id": "524c"
+    },
+    {
+      "title": "Java",
+      "slug": "java",
+      "amountOfVideos": 162,
+      "id": "61c7"
+    },
+    {
+      "title": "C#",
+      "slug": "csharp",
+      "amountOfVideos": 184,
+      "id": "0335"
+    },
+    {
+      "title": "Vue.js",
+      "slug": "vuejs",
+      "amountOfVideos": 136,
+      "id": "d4af"
+    },
+    {
+      "title": "Angular",
+      "slug": "angular",
+      "amountOfVideos": 155,
+      "id": "c81a"
+    },
+    {
+      "title": "TypeScript",
+      "slug": "typescript",
+      "amountOfVideos": 109,
+      "id": "8948"
+    },
+    {
+      "title": "SQL",
+      "slug": "sql",
+      "amountOfVideos": 187,
+      "id": "db86"
+    },
+    {
+      "title": "MongoDB",
+      "slug": "mongodb",
+      "amountOfVideos": 129,
+      "id": "79ea"
+    },
+    {
+      "title": "Express.js",
+      "slug": "expressjs",
+      "amountOfVideos": 141,
+      "id": "ac84"
+    },
+    {
+      "title": "Django",
+      "slug": "django",
+      "amountOfVideos": 115,
+      "id": "c303"
+    },
+    {
+      "title": "Flask",
+      "slug": "flask",
+      "amountOfVideos": 123,
+      "id": "9d9f"
+    },
+    {
+      "title": "Ruby",
+      "slug": "ruby",
+      "amountOfVideos": 153,
+      "id": "7af5"
+    },
+    {
+      "title": "PHP",
+      "slug": "php",
+      "amountOfVideos": 176,
+      "id": "b38c"
+    },
+    {
+      "title": "Swift",
+      "slug": "swift",
+      "amountOfVideos": 145,
+      "id": "2c35"
+    },
+    {
+      "title": "Kotlin",
+      "slug": "kotlin",
+      "amountOfVideos": 120,
+      "id": "cb13"
+    },
+    {
+      "title": "Go",
+      "slug": "go",
+      "amountOfVideos": 131,
+      "id": "99d7"
+    },
+    {
+      "title": "Rust",
+      "slug": "rust",
+      "amountOfVideos": 108,
+      "id": "ba7f"
+    },
+    {
+      "title": "C++",
+      "slug": "cplusplus",
+      "amountOfVideos": 167,
+      "id": "a7b9"
+    },
+    {
+      "title": "C",
+      "slug": "c",
+      "amountOfVideos": 143,
+      "id": "38f9"
+    },
+    {
+      "title": "Objective-C",
+      "slug": "objective-c",
+      "amountOfVideos": 125,
+      "id": "844f"
+    },
+    {
+      "title": "Assembly",
+      "slug": "assembly",
+      "amountOfVideos": 103,
+      "id": "1530"
+    },
+    {
+      "title": "Scala",
+      "slug": "scala",
+      "amountOfVideos": 94,
+      "id": "179f"
+    },
+    {
+      "title": "Perl",
+      "slug": "perl",
+      "amountOfVideos": 82,
+      "id": "fc32"
+    },
+    {
+      "title": "Lua",
+      "slug": "lua",
+      "amountOfVideos": 77,
+      "id": "e427"
+    },
+    {
+      "title": "R",
+      "slug": "r",
+      "amountOfVideos": 68,
+      "id": "6a21"
+    },
+    {
+      "title": "Matlab",
+      "slug": "matlab",
+      "amountOfVideos": 59,
+      "id": "8fb1"
+    },
+    {
+      "title": "SwiftUI",
+      "slug": "swiftui",
+      "amountOfVideos": 51,
+      "id": "65e2"
+    },
+    {
+      "title": "React Native",
+      "slug": "react-native",
+      "amountOfVideos": 45,
+      "id": "2f40"
+    },
+    {
+      "title": "Ionic",
+      "slug": "ionic",
+      "amountOfVideos": 37,
+      "id": "1e86"
+    },
+    {
+      "title": "Flutter",
+      "slug": "flutter",
+      "amountOfVideos": 30,
+      "id": "81ad"
+    },
+    {
+      "title": "Xamarin",
+      "slug": "xamarin",
+      "amountOfVideos": 26,
+      "id": "3d42"
+    },
+    {
+      "title": "Apache Cordova",
+      "slug": "apache-cordova",
+      "amountOfVideos": 22,
+      "id": "f279"
+    },
+    {
+      "title": "Electron",
+      "slug": "electron",
+      "amountOfVideos": 18,
+      "id": "e5f2"
+    },
+    {
+      "title": "Bootstrap",
+      "slug": "bootstrap",
+      "amountOfVideos": 15,
+      "id": "0533"
+    },
+    {
+      "title": "Tailwind CSS",
+      "slug": "tailwind-css",
+      "amountOfVideos": 12,
+      "id": "2cfd"
+    },
+    {
+      "title": "Sass",
+      "slug": "sass",
+      "amountOfVideos": 10,
+      "id": "01cb"
+    },
+    {
+      "title": "Less",
+      "slug": "less",
+      "amountOfVideos": 8,
+      "id": "1a5f"
+    },
+    {
+      "title": "Stylus",
+      "slug": "stylus",
+      "amountOfVideos": 6,
+      "id": "889f"
+    },
+    {
+      "title": "Material UI",
+      "slug": "material-ui",
+      "amountOfVideos": 4,
+      "id": "b2e2"
+    },
+    {
+      "title": "Ant Design",
+      "slug": "ant-design",
+      "amountOfVideos": 3,
+      "id": "18b7"
+    },
+    {
+      "title": "Foundation",
+      "slug": "foundation",
+      "amountOfVideos": 2,
+      "id": "40c4"
+    },
+    {
+      "title": "Semantic UI",
+      "slug": "semantic-ui",
+      "amountOfVideos": 1,
+      "id": "5a5c"
+    },
+    {
+      "title": "Bulma",
+      "slug": "bulma",
+      "amountOfVideos": 0,
+      "id": "3e3d"
+    },
+    {
+      "title": "Elixir",
+      "slug": "elixir",
+      "amountOfVideos": 178,
+      "id": "46a1"
+    },
+    {
+      "title": "Haskell",
+      "slug": "haskell",
+      "amountOfVideos": 188,
+      "id": "622a"
+    },
+    {
+      "title": "Groovy",
+      "slug": "groovy",
+      "amountOfVideos": 199,
+      "id": "e546"
+    },
+    {
+      "title": "Clojure",
+      "slug": "clojure",
+      "amountOfVideos": 207,
+      "id": "6a72"
+    },
+    {
+      "title": "Dart",
+      "slug": "dart",
+      "amountOfVideos": 215,
+      "id": "9d38"
+    },
+    {
+      "title": "Shell Script",
+      "slug": "shell-script",
+      "amountOfVideos": 226,
+      "id": "6755"
+    },
+    {
+      "title": "PowerShell",
+      "slug": "powershell",
+      "amountOfVideos": 235,
+      "id": "2f8f"
+    },
+    {
+      "title": "Cobol",
+      "slug": "cobol",
+      "amountOfVideos": 244,
+      "id": "b701"
+    },
+    {
+      "title": "Ada",
+      "slug": "ada",
+      "amountOfVideos": 250,
+      "id": "e181"
+    },
+    {
+      "title": "Fortran",
+      "slug": "fortran",
+      "amountOfVideos": 265,
+      "id": "3b45"
+    },
+    {
+      "title": "Prolog",
+      "slug": "prolog",
+      "amountOfVideos": 275,
+      "id": "62f4"
+    },
+    {
+      "title": "Lisp",
+      "slug": "lisp",
+      "amountOfVideos": 288,
+      "id": "e42a"
+    },
+    {
+      "title": "Scheme",
+      "slug": "scheme",
+      "amountOfVideos": 297,
+      "id": "2648"
+    },
+    {
+      "title": "Logo",
+      "slug": "logo",
+      "amountOfVideos": 308,
+      "id": "f5f4"
+    },
+    {
+      "title": "Smalltalk",
+      "slug": "smalltalk",
+      "amountOfVideos": 320,
+      "id": "233c"
+    },
+    {
+      "title": "Erlang",
+      "slug": "erlang",
+      "amountOfVideos": 337,
+      "id": "609c"
+    },
+    {
+      "title": "Pascal",
+      "slug": "pascal",
+      "amountOfVideos": 355,
+      "id": "f23e"
+    },
+    {
+      "title": "COBOL",
+      "slug": "cobol-2",
+      "amountOfVideos": 374,
+      "id": "3f99"
+    },
+    {
+      "title": "F#",
+      "slug": "fsharp",
+      "amountOfVideos": 392,
+      "id": "af14"
+    },
+    {
+      "title": "Ocaml",
+      "slug": "ocaml",
+      "amountOfVideos": 415,
+      "id": "5617"
+    },
+    {
+      "title": "Julia",
+      "slug": "julia",
+      "amountOfVideos": 436,
+      "id": "f2b3"
+    },
+    {
+      "title": "Redis",
+      "slug": "redis",
+      "amountOfVideos": 113,
+      "id": "e619"
+    },
+    {
+      "id": "57a1",
+      "title": "TEst Agora vai esse slug desgraçado",
+      "slug": "test-agora-vai-esse-slug-desgracado",
+      "amountOfVideos": 0
+    },
+    {
+      "id": "db02",
+      "title": "12asdasdasdasd3",
+      "slug": "12asdasdasdasd3",
+      "amountOfVideos": 0
+    },
+    {
+      "id": "fa58",
+      "title": "Nova tag",
+      "slug": "nova-tag",
+      "amountOfVideos": 0
+    },
+    {
+      "id": "aa9b",
+      "title": "teste com mutation",
+      "slug": "teste-com-mutation",
+      "amountOfVideos": 0
+    },
+    {
+      "id": "aa8b",
+      "title": "deve aparecer na lista sozinho",
+      "slug": "deve-aparecer-na-lista-sozinho",
+      "amountOfVideos": 0
+    }
   ]
 }
